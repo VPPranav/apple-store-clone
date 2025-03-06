@@ -1,5 +1,3 @@
-REFERRED FROM YT VIDEO BUILD AND DEPLOY OWN MI STORE CLONE WITH COMPREHENSIVE REACT JS BY 6 PACK PROGRAMMER 
-
 NOTE:
 If you are using node version above 17 then either you need to downgrade or to temporarily run use command:
 -----------------------------------------------------------------------
