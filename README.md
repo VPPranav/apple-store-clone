@@ -1,6 +1,3 @@
-Here's the rephrased version:  
-
----
 
 # **Getting Started with Create React App**  
 
