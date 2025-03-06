@@ -1,0 +1,27 @@
+.starProduct {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin: 20px auto; /* Increased margin for spacing */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.starProduct > div:last-child {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    width: 80%; /* Adjusted width for better responsiveness */
+}
+
+.starProduct img {
+    transition: transform 0.5s, box-shadow 0.5s; /* Smooth transition for transform and box-shadow */
+    border-radius: 10px; /* Rounded corners for images */
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Margin for spacing between images */
+}
+
+.starProduct img:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363); /* Shadow effect on hover */
+}

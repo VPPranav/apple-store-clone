@@ -1,0 +1,65 @@
+.nav {
+    z-index: 1000; /* Ensure the nav is on top */
+    background-color: white; /* White background */
+    padding: 10px 0; /* Padding for top and bottom */
+    display: flex; /* Flexbox for layout */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Light border for separation */
+}
+
+.logo {
+    background-color: transparent; /* Transparent background for logo */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: relative; /* Position relative for child elements */
+    margin-left: 20px; /* Margin for spacing */
+}
+
+#logoImage {
+    transition: transform 0.2s; /* Smooth transition for transform */
+    width: 58px; /* Fixed width for logo */
+}
+
+#logoImage:hover {
+    transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+.navlinks {
+    color: rgb(59, 59, 59); /* Link color */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Horizontal margin for spacing */
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Apple-like font */
+    font-weight: 500; /* Medium font weight */
+    font-size: 1.1vmax; /* Responsive font size */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navlinks:hover {
+    color: orangered; /* Change color on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+.searchbox {
+    position: relative; /* Position relative for child elements */
+    margin-right: 20px; /* Margin for spacing */
+}
+
+.searchbox > input {
+    border: none; /* No border */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.76); /* Bottom border */
+    width: 200px; /* Fixed width for input */
+    font-size: 1.1vmax; /* Responsive font size */
+    outline: none; /* No outline */
+    color: rgb(61, 61, 61); /* Input text color */
+    font-weight: 100; /* Light font weight */
+    padding: 5px 0; /* Padding for input */
+}
+
+.searchbox > svg {
+    fill: rgb(61, 61, 61); /* Icon color */
+    position: absolute; /* Position absolute for icon */
+    right: 10px; /* Position icon inside input */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}

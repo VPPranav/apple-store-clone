@@ -1,0 +1,20 @@
+.offersSection {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px 0; /* Padding for top and bottom */
+    background-color: #f9f9f9; /* Light background color for contrast */
+}
+
+.offersSection img {
+    margin: 0 15px; /* Horizontal margin for spacing */
+    transition: transform 0.5s, box-shadow 0.5s; /* Smooth transition for transform and box-shadow */
+    border-radius: 10px; /* Rounded corners for images */
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.offersSection img:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363); /* Shadow effect on hover */
+}

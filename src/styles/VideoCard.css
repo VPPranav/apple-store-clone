@@ -1,0 +1,58 @@
+.videoCard {
+    width: 30vmax;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin: 0.5vmax;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.videoCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.videoCard > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.videoCard > a > svg {
+    width: 32px;
+    height: 32px;
+    fill: rgba(255, 255, 255, 0.85);
+    transition: fill 0.3s ease-in-out;
+}
+
+.videoCard:hover a {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(1.1);
+}
+
+.videoCard:hover a > svg {
+    fill: #1d1d1f;
+}
+
+.videoCard p {
+    color: #f5f5f7;
+    font-size: 1.2vmax;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Helvetica, Arial, sans-serif;
+    margin-top: 1vmax;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}

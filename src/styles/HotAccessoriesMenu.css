@@ -1,0 +1,22 @@
+.HotAccessoriesMenu {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    margin: 20px 0; /* Margin for spacing above and below */
+}
+
+.HotAccessoriesLink {
+    text-decoration: none; /* No underline */
+    color: rgb(0, 0, 0); /* Darker text color for better contrast */
+    margin: 0 15px; /* Horizontal margin for spacing */
+    padding: 10px 0; /* Padding for vertical spacing */
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Apple-like font */
+    font-weight: 500; /* Medium font weight for better readability */
+    font-size: 1.1vmax; /* Responsive font size */
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.HotAccessoriesLink:hover {
+    text-decoration: none; /* No underline on hover */
+    color: orangered; /* Change color on hover */
+    border-bottom: 2px solid orangered; /* Thicker border for emphasis */
+}

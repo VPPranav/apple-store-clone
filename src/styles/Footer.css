@@ -1,0 +1,63 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5vmax;
+    padding: 3vmax 10%;
+    background-color: #1d1d1f;
+    color: #d2d2d7;
+    font-size: 0.9vmax;
+}
+
+.footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmax;
+}
+
+.footer > div > a {
+    color: #d2d2d7;
+    text-decoration: none;
+    font-size: 0.9vmax;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer > div > a:hover {
+    color: white;
+}
+
+.footer > div:last-child {
+    grid-column: span 2;
+}
+
+.footer > div:last-child > div {
+    width: 100%;
+    margin-top: 1vmax;
+    font-size: 0.8vmax;
+    color: #86868b;
+}
+
+.footer > div:last-child > button {
+    width: 40%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 0.6vmax 0;
+    font-size: 0.9vmax;
+    font-weight: 400;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.footer > div:last-child > button:hover {
+    background-color: white;
+    color: #1d1d1f;
+}
+
+.footerBorder {
+    background-color: #1d1d1f;
+    color: #86868b;
+    text-align: center;
+    font-size: 0.9vmax;
+    padding: 1.5vmax 10%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}

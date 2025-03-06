@@ -1,0 +1,97 @@
+/* PreFooter Styles */
+.PreFooter {
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vmax;
+}
+
+.PreFooter > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(66, 66, 66, 0.829);
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.PreFooter > div:hover svg {
+    fill: rgb(34, 34, 34);
+}
+
+.PreFooter > div:hover p {
+    color: rgb(19, 18, 18);
+}
+
+.PreFooter svg {
+    transform: scale(2) translateY(-0.2vmax);
+    fill: rgba(37, 37, 37, 0.322);
+    margin: 2vmax;
+}
+
+/* PreFooter2 Styles */
+.PreFooter2 {
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vmax;
+    padding: 2vmax 10%;
+}
+
+.PreFooter2 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PreFooter2 > div > p {
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 1.2vmax;
+    text-align: center;
+}
+
+.PreFooter2 > div > span {
+    color: rgba(51, 51, 51, 0.842);
+    font-size: 1vmax;
+    text-align: center;
+}
+
+.PreFooter2 > div > div > input {
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: rgb(255, 255, 255);
+    font-size: 1vmax;
+    width: 18vmax;
+}
+
+.PreFooter2 > div > div > button {
+    border: none;
+    padding: 0.5vmax;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+}
+
+.PreFooter2 > div > div {
+    border: 1px solid rgba(126, 126, 126, 0.493);
+    display: flex;
+}
+
+.PreFooter2 > div:nth-child(4) {
+    flex-direction: row;
+    gap: 1vmax;
+}
+
+.PreFooter2 > div:nth-child(4) > svg {
+    cursor: pointer;
+    fill: rgba(138, 138, 138, 0.705);
+    transition: fill 0.3s ease-in-out;
+}
+
+.PreFooter2 > div:nth-child(4) > svg:hover {
+    fill: rgb(94, 94, 94);
+}

@@ -1,0 +1,40 @@
+.HotItemCard {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: white; /* White background for a clean look */
+    width: 30%; /* Adjusted width for better responsiveness */
+    margin: 1.5vmax; /* Increased margin for spacing */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    overflow: hidden; /* Ensure child elements don't overflow */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.HotItemCard:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 6px 15px rgba(53, 53, 53, 0.363); /* Shadow effect on hover */
+}
+
+.HotItemCard > img {
+    width: 80%; /* Increased width for better visibility */
+    border-radius: 10px; /* Rounded corners for images */
+    margin-top: 10px; /* Margin for spacing above the image */
+}
+
+.HotItemCard > p {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Apple-like font */
+    color: rgb(85, 83, 83); /* Text color */
+    font-size: 1.1vmax; /* Responsive font size */
+    text-align: center; /* Center text alignment */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.HotItemCard > span {
+    margin: 5px 0; /* Adjusted margin for spacing */
+    color: rgb(224, 20, 20); /* Highlight color */
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Apple-like font */
+    font-size: 1.2vmax; /* Responsive font size */
+    font-weight: bold; /* Bold font for emphasis */
+}

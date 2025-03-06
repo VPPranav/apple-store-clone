@@ -1,0 +1,23 @@
+.heading {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin: 20px 0; /* Margin for spacing above and below the heading */
+}
+
+.heading div {
+    background-color: rgba(39, 39, 39, 0.274); /* Light gray background for the divider */
+    height: 2px; /* Increased height for better visibility */
+    width: 30vw; /* Width of the divider */
+    margin: 0 15px; /* Margin for spacing around the divider */
+}
+
+.heading p {
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Padding for spacing around the text */
+    color: rgb(0, 0, 0); /* Darker text color for better contrast */
+    font-size: 2.5vmax; /* Responsive font size */
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Apple-like font */
+    font-weight: 500; /* Medium font weight for better readability */
+    text-align: center; /* Center text alignment */
+}

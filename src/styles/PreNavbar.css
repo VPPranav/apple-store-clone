@@ -1,0 +1,43 @@
+.preNav {
+    background-color: rgb(29, 28, 28); /* Dark background */
+    display: grid;
+    grid-template-columns: 5fr 2fr; /* Two-column layout */
+    color: white; /* Text color */
+    padding: 10px 0; /* Padding for top and bottom */
+}
+
+.preNav > div {
+    padding: 0 4vmax; /* Horizontal padding */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.preNav > div > span {
+    color: rgba(180, 180, 180, 0.644); /* Light gray color for separators */
+    font-size: 0.8vmax; /* Font size */
+    font-weight: 100; /* Light font weight */
+    margin: 0 10px; /* Margin for spacing */
+}
+
+.preNav > div svg {
+    fill: rgb(180, 180, 180); /* Icon color */
+    margin-left: 5px; /* Space between text and icon */
+}
+
+.preNav > div svg:hover {
+    fill: rgb(255, 255, 255); /* Icon color on hover */
+}
+
+.preNav > div > a {
+    color: rgb(180, 180, 180); /* Link color */
+    font-size: 0.9vmax; /* Font size */
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Apple-like font */
+    font-weight: 300; /* Light font weight */
+    margin: 0 10px; /* Margin for spacing */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.preNav > div > a:hover {
+    color: white; /* Link color on hover */
+}

@@ -1,0 +1,332 @@
+{
+    "logo": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png",
+    "iPhones": [
+        {
+            "name": "iPhone 14 Pro",
+            "price": "₹ 1,29,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "iPhone 14",
+            "price": "₹ 79,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "iPhone 13",
+            "price": "₹ 69,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-select-2021?wid=140&hei=140&fmt=png-alpha&.v=1631669496000"
+        },
+        {
+            "name": "iPhone SE",
+            "price": "₹ 43,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        }
+    ],
+    "iPads": [
+        {
+            "name": "iPad Pro 12.9-inch",
+            "price": "₹ 1,19,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-12-9-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "iPad Air",
+            "price": "₹ 54,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "iPad (9th generation)",
+            "price": "₹ 34,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-select-2021?wid=140&hei=140&fmt=png-alpha&.v=1631669496000"
+        }
+    ],
+    "Macs": [
+        {
+            "name": "MacBook Air",
+            "price": "₹ 99,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "MacBook Pro 14-inch",
+            "price": "₹ 1,49,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-pro-14-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "iMac 24-inch",
+            "price": "₹ 1,19,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac-24-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        }
+    ],
+    "watches": [
+        {
+            "name": "Apple Watch Series 8",
+            "price": "₹ 41,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-watch-series-8-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "Apple Watch SE",
+            "price": "₹ 29,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-watch-se-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        }
+    ],
+    "accessories": [
+        {
+            "name": "AirPods Pro",
+            "price": "₹ 24,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "AirPods (3rd generation)",
+            "price": "₹ 19,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-3-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "MagSafe Charger",
+            "price": "₹ 4,500",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/magsafe-charger-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        }
+    ],
+    "home": [
+        {
+            "name": "HomePod mini",
+            "price": "₹ 9,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "Apple TV 4K",
+            "price": "₹ 19,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-tv-4k-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "AirTag",
+            "price": "₹ 3,190",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airtag-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        }
+    ],
+    "audio": [
+        {
+            "name": "AirPods Max",
+            "price": "₹ 59,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "Beats Studio Buds",
+            "price": "₹ 14,900",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/beats-studio-buds-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        },
+        {
+            "name": "Beats Flex",
+            "price": "₹ 5,999",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/beats-flex-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+        }
+    ],
+    "banner": {
+        "start": [
+            "https://www.apple.com/v/home/ai/images/heroes/iphone-14/hero__d8g1g3g1g3g6_large.jpg",
+            "https://www.apple.com/v/home/ai/images/heroes/ipad-pro/hero__d8g1g3g1g3g6_large.jpg",
+            "https://www.apple.com/v/home/ai/images/heroes/macbook-air/hero__d8g1g3g1g3g6_large.jpg"
+        ],
+        "end": [
+            {
+                "name": "iPhone 14 Pro",
+                "description": "The ultimate iPhone experience with advanced camera systems.",
+                "source": "Apple",
+                "image": "https://www.apple.com/v/home/ai/images/heroes/iphone-14/hero__d8g1g3g1g3g6_large.jpg"
+            },
+            {
+                "name": "iPad Pro",
+                "description": "The most powerful iPad ever.",
+                "source": "Apple",
+                "image": "https://www.apple.com/v/home/ai/images/heroes/ipad-pro/hero__d8g1g3g1g3g6_large.jpg"
+            },
+            {
+                "name": "MacBook Air",
+                "description": "Lightweight and powerful, perfect for on-the-go.",
+                "source": "Apple",
+                "image": "https://www.apple.com/v/home/ai/images/heroes/macbook-air/hero__d8g1g3g1g3g6_large.jpg"
+            }
+        ]
+    },
+    "offer": [
+        {
+            "url": "https://www.apple.com/in/shop/buy-iphone",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/iphone-14/hero__d8g1g3g1g3g6_large.jpg"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/buy-ipad",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/ipad-pro/hero__d8g1g3g1g3g6_large.jpg"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/buy-mac",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/macbook-air/hero__d8g1g3g1g3g6_large.jpg"
+        }
+    ],
+    "starProduct": [
+        {
+            "url": "https://www.apple.com/in/shop/buy-iphone",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/iphone-14/hero__d8g1g3g1g3g6_large.jpg"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/buy-ipad",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/ipad-pro/hero__d8g1g3g1g3g6_large.jpg"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/buy-mac",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/macbook-air/hero__d8g1g3g1g3g6_large.jpg"
+        }
+    ],
+    "productReviews": [
+        {
+            "image": "https://www.apple.com/v/home/ai/images/heroes/iphone-14/hero__d8g1g3g1g3g6_large.jpg",
+            "review": "The best iPhone yet.",
+            "name": "iPhone 14 Pro",
+            "price": "₹ 1,29,900"
+        },
+        {
+            "image": "https://www.apple.com/v/home/ai/images/heroes/ipad-pro/hero__d8g1g3g1g3g6_large.jpg",
+            "review": "A game changer for creatives.",
+            "name": "iPad Pro",
+            "price": "₹ 1,19,900"
+        }
+    ],
+    "videos": [
+        {
+            "name": "iPhone 14 Pro",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/iphone-14/hero__d8g1g3g1g3g6_large.jpg"
+        },
+        {
+            "name": "iPad Pro",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/ipad-pro/hero__d8g1g3g1g3g6_large.jpg"
+        },
+        {
+            "name": "MacBook Air",
+            "image": "https://www.apple.com/v/home/ai/images/heroes/macbook-air/hero__d8g1g3g1g3g6_large.jpg"
+        }
+    ],
+    "footer": {
+        "support": [
+            {
+                "name": "Apple Support",
+                "url": "https://support.apple.com/"
+            },
+            {
+                "name": "Contact Apple",
+                "url": "https://www.apple.com/contact/"
+            },
+            {
+                "name": "Service & Repair",
+                "url": "https://support.apple.com/service"
+            },
+            {
+                "name": "Warranty",
+                "url": "https://www.apple.com/legal/warranty/"
+            }
+        ],
+        "shopAndLearn": [
+            {
+                "name": "Shop iPhone",
+                "url": "https://www.apple.com/in/shop/buy-iphone"
+            },
+            {
+                "name": "Shop iPad",
+                "url": "https://www.apple.com/in/shop/buy-ipad"
+            },
+            {
+                "name": "Shop Mac",
+                "url": "https://www.apple.com/in/shop/buy-mac"
+            }
+        ],
+        "aboutUS": [
+            {
+                "name": "About Apple",
+                "url": "https://www.apple.com/about/"
+            },
+            {
+                "name": "Newsroom",
+                "url": "https://www.apple.com/newsroom/"
+            },
+            {
+                "name": "Privacy Policy",
+                "url": "https://www.apple.com/legal/privacy/"
+            }
+        ],
+        "contactUs": [
+            {
+                "name": "Email",
+                "url": "https://www.apple.com/contact/"
+            },
+            {
+                "name": "Careers",
+                "url": "https://www.apple.com/careers/"
+            }
+        ]
+    },
+    "hotAccessories": {
+        "music": [
+            {
+                "name": "AirPods Pro",
+                "price": "₹ 24,900",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            },
+            {
+                "name": "AirPods (3rd generation)",
+                "price": "₹ 19,900",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-3-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            }
+        ],
+        "smartDevice": [
+            {
+                "name": "HomePod mini",
+                "price": "₹ 9,900",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            },
+            {
+                "name": "Apple TV 4K",
+                "price": "₹ 19,900",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-tv-4k-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            }
+        ],
+        "home": [
+            {
+                "name": "AirTag",
+                "price": "₹ 3,190",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airtag-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            }
+        ],
+        "lifeStyle": [
+            {
+                "name": "Apple Watch Series 8",
+                "price": "₹ 41,900",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-watch-series-8-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            },
+            {
+                "name": "Apple Watch SE",
+                "price": "₹ 29,900",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-watch-se-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            }
+        ],
+        "mobileAccessories": [
+            {
+                "name": "MagSafe Charger",
+                "price": "₹ 4,500",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/magsafe-charger-select-2022?wid=140&hei=140&fmt=png-alpha&.v=1662030662000"
+            }
+        ]
+    },
+    "hotAccessoriesCover": {
+        "music": "https://www.apple.com/v/home/ai/images/heroes/music-cover.jpg",
+        "smartDevice": "https://www.apple.com/v/home/ai/images/heroes/smart-device-cover.jpg",
+        "home": "https://www.apple.com/v/home/ai/images/heroes/home-cover.jpg",
+        "lifeStyle": "https://www.apple.com/v/home/ai/images/heroes/lifestyle-cover.jpg",
+        "mobileAccessories": "https://www.apple.com/v/home/ai/images/heroes/mobile-accessories-cover.jpg"
+    },
+    "retailStore": [
+        {
+            "name": "Apple Store",
+            "url": "https://www.apple.com/retail/"
+        },
+        {
+            "name": "Find a Store",
+            "url": "https://www.apple.com/retail/storelocator/"
+        }
+    ]
+}

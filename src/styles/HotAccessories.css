@@ -1,0 +1,37 @@
+.HotAccessories {
+    display: flex; /* Flexbox for layout */
+    width: 90vw; /* Width of the container */
+    margin: auto; /* Center the container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.HotAccessories > div:first-child {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.HotAccessories > div:first-child > img {
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.5s, box-shadow 0.5s; /* Smooth transition for hover effects */
+    width: 22vw; /* Width of the image */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+.HotAccessories > div:first-child > img:hover {
+    transform: translateY(-5px); /* Slightly lift the image on hover */
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363); /* Shadow effect on hover */
+}
+
+.HotAccessories > div:last-child {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Full width for the last child */
+}
+
+.HotAccessories > div:last-child > .HotItemCard {
+    margin: 1.5vmax; /* Margin for spacing between items */
+    width: 30%; /* Adjusted width for better responsiveness */
+}
