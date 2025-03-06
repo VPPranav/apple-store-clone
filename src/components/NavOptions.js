@@ -2,47 +2,76 @@ import React, { useState, useEffect } from 'react';
 import NavCard from "./NavCard.js";
 import "../styles/NavOptions.css";
 
-const NavOptions = ({ 
-    iPhones, 
-    iPads, 
-    Macs, 
-    AppleWatch, 
-    AirPods, 
-    Accessories 
-}) => {
-    const [activeCategory, setActiveCategory] = useState('');
+const NavOptions = ({ iphone, ipad, mac, watch, airpods, tvHome, entertainment, accessories, support }) => {
+    const [iphoneToggle, setIphoneToggle] = useState(false);
+    const [ipadToggle, setIpadToggle] = useState(false);
+    const [macToggle, setMacToggle] = useState(false);
+    const [watchToggle, setWatchToggle] = useState(false);
+    const [airpodsToggle, setAirpodsToggle] = useState(false);
+    const [tvHomeToggle, setTvHomeToggle] = useState(false);
+    const [entertainmentToggle, setEntertainmentToggle] = useState(false);
+    const [accessoriesToggle, setAccessoriesToggle] = useState(false);
+    const [supportToggle, setSupportToggle] = useState(false);
 
     useEffect(() => {
-        const path = window.location.pathname;
-        if (path === "/#iphones") {
-            setActiveCategory('iphones');
-        } else if (path === "/#ipads") {
-            setActiveCategory('ipads');
-        } else if (path === "/#macs") {
-            setActiveCategory('macs');
-        } else if (path === "/#applewatch") {
-            setActiveCategory('applewatch');
-        } else if (path === "/#airpods") {
-            setActiveCategory('airpods');
-        } else if (path === "/#accessories") {
-            setActiveCategory('accessories');
+        if (window.location.pathname === "/#iphone") {
+            return setIphoneToggle(true);
+        }
+        if (window.location.pathname === "/#ipad") {
+            return setIpadToggle(true);
+        }
+        if (window.location.pathname === "/#mac") {
+            return setMacToggle(true);
+        }
+        if (window.location.pathname === "/#watch") {
+            return setWatchToggle(true);
+        }
+        if (window.location.pathname === "/#airpods") {
+            return setAirpodsToggle(true);
+        }
+        if (window.location.pathname === "/#tv-home") {
+            return setTvHomeToggle(true);
+        }
+        if (window.location.pathname === "/#entertainment") {
+            return setEntertainmentToggle(true);
+        }
+        if (window.location.pathname === "/#accessories") {
+            return setAccessoriesToggle(true);
+        }
+        if (window.location.pathname === "/#support") {
+            return setSupportToggle(true);
         }
     }, []);
 
-    const renderProducts = (products) => {
-        return products.map((item) => (
-            <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
-        ));
-    };
-
     return (
         <div className="navOptions">
-            {activeCategory === 'iphones' && renderProducts(iPhones)}
-            {activeCategory === 'ipads' && renderProducts(iPads)}
-            {activeCategory === 'macs' && renderProducts(Macs)}
-            {activeCategory === 'applewatch' && renderProducts(AppleWatch)}
-            {activeCategory === 'airpods' && renderProducts(AirPods)}
-            {activeCategory === 'accessories' && renderProducts(Accessories)}
+            {iphoneToggle ? iphone.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {ipadToggle ? ipad.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {macToggle ? mac.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {watchToggle ? watch.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {airpodsToggle ? airpods.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {tvHomeToggle ? tvHome.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {entertainmentToggle ? entertainment.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {accessoriesToggle ? accessories.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
+            {supportToggle ? support.map((item) => (
+                <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
+            )) : null}
         </div>
     );
 };

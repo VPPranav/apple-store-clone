@@ -1,6 +1,6 @@
 .videoCard {
-    width: 30vmax;
-    height: 48vh;
+    width: 28vmax; /* Slightly reduced for better balance */
+    height: 50vh; /* Slightly taller for better visibility */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,51 +8,73 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    margin: 0.5vmax;
+    border-radius: 15px; /* More rounded edges */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    margin: 0.7vmax;
     cursor: pointer;
     overflow: hidden;
+    position: relative;
 }
 
+/* Subtle bounce effect */
 .videoCard:hover {
-    transform: translateY(-2px);
-    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* Play Button */
 .videoCard > a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
-    height: 56px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    backdrop-filter: blur(6px); /* Soft blur effect */
 }
 
+/* Play Button Icon */
 .videoCard > a > svg {
-    width: 32px;
-    height: 32px;
-    fill: rgba(255, 255, 255, 0.85);
+    width: 34px;
+    height: 34px;
+    fill: rgba(255, 255, 255, 0.9);
     transition: fill 0.3s ease-in-out;
 }
 
+/* Hover Effect */
 .videoCard:hover a {
-    background-color: rgba(255, 255, 255, 0.9);
-    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.95);
+    transform: scale(1.15);
 }
 
 .videoCard:hover a > svg {
-    fill: #1d1d1f;
+    fill: #222;
 }
 
+/* Video Title */
 .videoCard p {
-    color: #f5f5f7;
-    font-size: 1.2vmax;
-    font-weight: 500;
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Helvetica, Arial, sans-serif;
-    margin-top: 1vmax;
-    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 1.4vmax;
+    font-weight: 600;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 1.2vmax;
+    text-align: center;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+/* Subtle Overlay for Better Visibility */
+.videoCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)); /* Smooth overlay */
+    border-radius: 15px;
 }

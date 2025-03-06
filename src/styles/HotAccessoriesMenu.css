@@ -1,22 +1,62 @@
 .HotAccessoriesMenu {
-    display: flex; /* Flexbox for layout */
-    justify-content: center; /* Center items horizontally */
-    margin: 20px 0; /* Margin for spacing above and below */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    gap: 20px; /* Improved spacing between links */
+    padding: 10px 15px;
+    background: rgba(245, 245, 247, 0.7); /* Light, modern Apple-like background */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Subtle blur effect */
 }
 
+/* Styling for Links */
 .HotAccessoriesLink {
-    text-decoration: none; /* No underline */
-    color: rgb(0, 0, 0); /* Darker text color for better contrast */
-    margin: 0 15px; /* Horizontal margin for spacing */
-    padding: 10px 0; /* Padding for vertical spacing */
-    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Apple-like font */
-    font-weight: 500; /* Medium font weight for better readability */
-    font-size: 1.1vmax; /* Responsive font size */
-    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none;
+    color: #333; /* Slightly darker text for better contrast */
+    padding: 12px 20px;
+    font-family: 'SF Pro Display', 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 1.1vmax;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out, transform 0.2s ease-in-out;
+    position: relative;
 }
 
+/* Hover Effects */
 .HotAccessoriesLink:hover {
-    text-decoration: none; /* No underline on hover */
-    color: orangered; /* Change color on hover */
-    border-bottom: 2px solid orangered; /* Thicker border for emphasis */
+    color: #ff4500; /* Apple-like vibrant orange */
+    transform: scale(1.08);
+}
+
+/* Elegant Underline Animation */
+.HotAccessoriesLink::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: #ff4500;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* Underline expands smoothly on hover */
+.HotAccessoriesLink:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .HotAccessoriesMenu {
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .HotAccessoriesLink {
+        font-size: 1.3vmax;
+        padding: 10px 15px;
+    }
 }
