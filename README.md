@@ -57,4 +57,3 @@ For learning React, visit the [React documentation](https://reactjs.org/).
 
 ---
 
-This version is more engaging, structured, and easier to read. Let me know if you need any modifications.
